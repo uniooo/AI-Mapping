@@ -1,0 +1,4 @@
+job_id,title,company,city,level,skills,salary,desc,url
+J1,Data Scientist,AICorp,Shanghai,Senior,"Python;Machine Learning;SQL",40k-60k,Work on ML models,http://example.com/jobs/j1
+J2,Backend Engineer,CloudOps,Beijing,Mid,"Node.js;Express;Neo4j",25k-35k,Build APIs,http://example.com/jobs/j2
+J3,Product Analyst,Insight Ltd,Shenzhen,Junior,"SQL;Dashboard;Research",15k-25k,Analyze product metrics,http://example.com/jobs/j3
