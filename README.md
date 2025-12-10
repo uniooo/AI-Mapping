@@ -27,7 +27,7 @@ Academia–Industry Mapping Graph prototype for exploring job–major alignment 
    ```bash
    npm start
    ```
-5. Open the graph UI at [http://localhost:8080](http://localhost:8080). Adjust min score and edge limit, then click nodes to fetch matches and details.
+5. Open the graph UI at [http://localhost:8080](http://localhost:8080). Set the Neo4j URI/user/password in the top controls if they differ from defaults, adjust min score and edge limit, then click nodes to fetch matches and details. Connection settings are remembered in your browser.
 
 ## API overview
 - `GET /company/:id/jobs?limit=` – jobs offered by a company.

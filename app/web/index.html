@@ -11,9 +11,13 @@
   <header>
     <h1>Academia–Industry Mapping Graph</h1>
     <div class="controls">
+      <label>URI <input type="text" id="uri" value="bolt://localhost:7687" /></label>
+      <label>User <input type="text" id="user" value="neo4j" /></label>
+      <label>Password <input type="password" id="password" value="neo4j" /></label>
       <label>Min Score <input type="number" id="minScore" step="0.05" value="0.4" min="0" max="1" /></label>
       <label>Edge Limit <input type="number" id="limit" value="200" min="10" max="1000" /></label>
       <button id="reload">Load Graph</button>
+      <span id="status" aria-live="polite"></span>
     </div>
   </header>
   <main>
