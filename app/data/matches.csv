@@ -1,0 +1,6 @@
+job_id,major_id,score,method,run_id,timestamp,feature_weights
+J1,M1,0.92,embedding,run-001,2024-10-01,"{\"skills\":0.5,\"city\":0.2}"
+J1,M3,0.71,embedding,run-001,2024-10-01,"{\"skills\":0.6}"
+J2,M1,0.78,tfidf,run-001,2024-10-01,"{\"skills\":0.7}"
+J2,M2,0.85,tfidf,run-001,2024-10-01,"{\"skills\":0.8}"
+J3,M2,0.62,hybrid,run-001,2024-10-01,"{\"skills\":0.4}"

@@ -1,0 +1,4 @@
+major_id,name,university,discipline,degree_level,skills,program_desc,course_list,url
+M1,Computer Science,Tsinghua University,Engineering,Bachelor,"Data Structures;Algorithms;Python",Comprehensive CS program,"Programming;Databases;AI",http://example.com/majors/m1
+M2,Information Systems,Fudan University,Management,Master,"SQL;Analytics;Business",Bridges tech and business,"Data Mining;BI;Project",http://example.com/majors/m2
+M3,Statistics,Zhejiang University,Science,Bachelor,"Probability;R;Machine Learning",Solid statistics training,"Probability;Regression;ML",http://example.com/majors/m3
