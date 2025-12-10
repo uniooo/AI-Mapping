@@ -50,7 +50,9 @@ main {
   grid-template-columns: 2fr 400px;
   height: calc(100vh - 80px);
 }
-#viz { width: 100%; height: 100%; background: #0b1324; }
+/* #viz { width: 100%; height: 100%; background: #0b1324; } */
+
+#viz { width: 100%; height: 80vh; background: #0b1324; }
 
 aside {
   border-left: 1px solid var(--border);

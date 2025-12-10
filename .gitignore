@@ -1,0 +1,72 @@
+# ----------------------------------------------------------------------
+# Node.js / NPM / Yarn / NVM
+# ----------------------------------------------------------------------
+
+# 1. 核心依赖目录
+# 排除所有通过 npm 或 yarn 安装的第三方库
+node_modules
+/jspm_packages/
+
+# 2. NPM 调试和日志文件
+# 排除 NPM 缓存和调试日志
+npm-debug.log
+yarn-error.log
+.pnp
+.pnp.js
+
+# 3. NVM (Node Version Manager)
+# 排除 nvm 创建的临时文件，通常用于项目版本切换
+.nvmrc
+
+# 4. Lock 文件 (根据您的喜好，通常建议提交 lock 文件)
+# 如果您不想提交，请取消注释以下行
+# package-lock.json
+# yarn.lock
+
+# ----------------------------------------------------------------------
+# 运行时和编译输出
+# ----------------------------------------------------------------------
+
+# 1. 编译输出目录 (前端/构建工具)
+# 排除 Webpack, Babel, TypeScript, Gulp, Rollup 等构建工具的输出
+/dist/
+/build/
+/out/
+/temp/
+*.tsbuildinfo
+
+# 2. Coverage (测试报告)
+# 排除 Jest, Mocha, Cypress 等测试生成的覆盖率报告
+/coverage/
+
+# ----------------------------------------------------------------------
+# IDE & 编辑器配置 (通用)
+# ----------------------------------------------------------------------
+
+# 1. Visual Studio Code (VS Code)
+.vscode/*
+# 排除工作区设置，如果您的团队需要共享它们，请注释掉
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# 排除本地历史记录
+.history/
+
+# 2. JetBrains IDEs (WebStorm/IntelliJ/Rider)
+.idea/
+
+# ----------------------------------------------------------------------
+# 操作系统临时文件
+# ----------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
